@@ -1,0 +1,320 @@
+.content-container {
+    background: #F9F9F9;
+    border-radius: 4px;
+    font-family: Roboto;
+    padding: 60px;
+}
+
+.overall-container {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 0 30px 30px;
+    margin: 15px 0;
+}
+
+.upper-part-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+}
+
+.getting-started-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.26px;
+    color: #000000;
+}
+
+.steps {
+    display: flex;
+    align-items: center;
+}
+
+.steps-progress-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: 0.26px;
+    margin: 0 10px;
+    color: #333333;
+}
+
+.stripe-logo-wrapper {
+    margin: 0 auto;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background: #EAF1FE;
+}
+
+.no-stripe-account {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.connect-header-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.26px;
+    color: #000000;
+    margin-bottom: 30px !important;
+}
+
+.connect-description-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.26px;
+    color: #555555;
+    max-width: 520px;
+    margin: 0 auto 20px;
+}
+
+.transaction-fee {
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 400px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.fee-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.26px;
+    color: #000000;
+}
+
+.fee-amount {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: 0.26px;
+    color: #555555;
+}
+
+.get-started-btn-wrapper {
+    width: fit-content;
+    margin: 2em auto;
+}
+
+.get-started-btn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12.5px 25px;
+    gap: 10px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #286EF1;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.26px;
+    color: #FFFFFF;
+}
+
+.find-out-more {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.find-out-more-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.26px;
+    color: #286EF1;
+    padding-right: 10px;
+
+}
+
+.account-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-details-wrapper {
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 400px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2em;
+    align-items: center;
+}
+
+.account-holder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.26px;
+    color: #000000;
+    margin: 0 0 7px !important;
+}
+
+.account-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    color: #555555;
+    margin: 0 !important;
+}
+
+.connected-icon {
+    display: flex;
+    align-items: center;
+}
+
+.connected-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: 0.26px;
+    margin: 10px;
+}
+
+.continue-btn-wrapper {
+    width: fit-content;
+    margin: 2em auto;
+}
+
+.continue-btn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12.5px 25px;
+    gap: 10px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #286EF1;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.26px;
+    color: #FFFFFF;
+}
+
+.show-popup-notice {
+    display: flex;
+    align-items: center;
+    background: #D5E3FD;
+    border-radius: 10px;
+    height: 101px;
+    width: 100%;
+    margin: 1.6em 0;
+}
+
+.illustration-icon {
+    width: 61px;
+    height: 61px;
+    margin: 20px 30px;
+}
+
+.popup-text-content {
+    width: 73.5%;
+}
+
+.popup-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 0 !important;
+}
+
+.popup-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.26px;
+    color: #1A1A1A;
+}
+
+.upgrade-btn-wrapper {
+    width: fit-content;
+}
+
+.upgrade-btn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: 12.5px 25px;
+    gap: 10px;
+    border: none;
+    width: 101px;
+    height: 40px;
+    left: 1294px;
+    top: 219px;
+
+    background: #286EF1;
+    border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.26px;
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,52 @@
+.page-heading-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.page-heading-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    letter-spacing: 0.2925px;
+}
+
+.page-heading-descriptive-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.2925px;
+    color: #555555;
+}
+
+.docs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.docs-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0.26px;
+    color: #000000;
+    padding: 0 10px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+.divider-line{
+    /* height: 1px; */
+    border: 1px solid #9e9d9d4b;
+}

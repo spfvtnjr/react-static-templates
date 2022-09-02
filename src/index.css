@@ -1,0 +1,14 @@
+body {
+    background: #E5E5E5;
+  }
+.upper-division{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #1A1A1A;
+    height: 60px;
+}
+.App{
+    margin: 100px 375px auto 375px;
+}
